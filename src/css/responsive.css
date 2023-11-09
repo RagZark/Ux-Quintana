@@ -1,0 +1,454 @@
+@media (min-width: 1200px) and (max-width: 1919px){
+    .btn-talk-to-me{
+        color: black;
+    }
+    .background-img{
+        transform: translateY(-15%);
+        max-width: 100%;
+    }
+    .shiny-img{
+        min-width: 100%;
+    }
+    .img-gabriel{
+        display: none;
+    }
+    .btn{
+        border-color: var(--var-cor-terciaria);
+        color: var(--var-cor-terciaria);
+    }
+    .btn:hover{
+        background-color: var(--var-cor-terciaria);
+        color: var(--var-cor-principal);
+    }
+    .header{
+        width: 80%;
+    }
+    .projects .project.hidden{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .img-gabriel{
+        display: none;
+    }
+    .softwares{
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        overflow-x: hidden;
+    }
+    .config{
+        margin: 0;
+    }
+    .point-line{
+        border-bottom: none;
+        margin: 0;
+        border-spacing: none;
+    }
+    .navigation, .btn-navigation, .background-img, .img-gabriel, .item-software p, .apresentation-text h3, .space-text br{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+        background-color: var(--var-cor-principal);
+    }
+    .header .logo{
+        margin-top: 25px;
+    }
+    .apresentation{
+        background-color: var(--var-cor-principal);
+        padding-bottom: 20px;
+        margin-bottom: 49px;
+    }
+    .apresentation .apresentation-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .apresentation-text .space-text{
+        padding: 0 25px;
+    }
+    .apresentation-text .title-apresentation, .apresentation-text span{
+        font-size: 36px;
+    }
+    .apresentation-text p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .apresentation-btn{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .apresentation .apresentation-btn .btn-ap{
+        margin: 0;
+    }
+    .softwares{
+        margin-bottom: 49px;
+    }
+    .softwares .list-softwares{
+        flex-wrap: wrap;
+    }
+    .softwares .list-softwares .item-software{
+        min-width: 100px;
+        flex: 1 0 calc(33.33% - 10px);
+        margin: 5px;
+    }
+    .item-software .icon{
+        margin-top: 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .journey{
+        margin: 0 0 49px;
+        padding: 0;
+    }
+    .journey h2{
+        margin-bottom: 40px;
+    }
+    .journey .text-journey{
+        flex-direction: column;
+    }
+    .journey .text-journey .text-align h3, .journey .text-journey .text-align p{
+        margin-bottom: 20px;
+        margin-left: 100px;
+        text-align: start;
+    }
+    .journey .text-journey .text-align p{
+        padding-right: 8px;
+    }
+    .journey .text-journey .journey-image{
+        height: 500px;
+        top: 0px;
+        left: 0;
+    }
+    .journey .text-journey .journey-right{
+        margin: 0;
+    }
+    .text-journey .journey-right .text-right{
+        margin-bottom: 0;
+    }
+    
+    .journey .text-journey .journey-left{
+        margin-top: 0;
+    }
+    
+    .text-journey .journey-left .text-left{
+        margin-bottom: 0;
+    }
+    .services .paragraph-services{
+        display: none;
+    }
+    .services .services-cards{
+        flex-direction: column;
+    }
+    .services .services-cards .card.reduced{
+        flex-direction: row;
+        height: 100px;
+    }
+    .services .services-cards .paragraph-card.hidden{
+        display: none;
+    }
+    .packages p{
+        display: none;
+    }
+    .packages .cards-price{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .packages .cards-price .card-price{
+        margin-bottom: 50px;
+    }
+    .packages .cards-price .card-price .btn{
+        display: none;
+    }
+    .packages .cards-price .card-price:hover{
+        transform: none;
+    }
+    .packages .cards-price .card-price .card-price-list .item-list{
+        margin-bottom: 10px;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .photo-gabriel{
+        align-self: center;
+        width: 250px;
+        height: 250px;
+    }
+    .about .professional{
+        margin-left: 0;
+    }
+    .about .professional .about-me{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .professional .about-me p{
+        margin: 0 7px 0 7px;
+        text-align: center;
+    }
+    .about .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .social .all-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    .about .more-informations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .about .more-informations p{
+        padding: 0 7px 0 7px;
+        text-align: center;
+    }
+    .more-informations button{
+        margin: 0;
+    }
+    .more-informations .information-buttons button:first-child {
+        margin-right: 10px;
+    }
+    .footer{
+        padding-top: 10px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .projects i:first-child{
+        left: -16px;
+        display: none;
+    }
+    .projects i:last-child{
+        right: -16px;
+    }
+    .projects .slider .portfolio-images{
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px){
+    .projects .slider .portfolio-images{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        overflow-x: hidden;
+    }
+    .config{
+        margin: 0;
+    }
+    .point-line{
+        border-bottom: none;
+        margin: 0;
+        border-spacing: none;
+    }
+    .navigation, .btn-navigation, .background-img, .img-gabriel, .item-software p, .apresentation-text h3, .space-text br{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+        background-color: var(--var-cor-principal);
+    }
+    .header .logo{
+        margin-top: 25px;
+    }
+    .apresentation{
+        background-color: var(--var-cor-principal);
+        padding-bottom: 20px;
+        margin-bottom: 49px;
+    }
+    .apresentation .apresentation-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .apresentation-text .space-text{
+        padding: 0 25px;
+    }
+    .apresentation-text .title-apresentation, .apresentation-text span{
+        font-size: 36px;
+    }
+    .apresentation-text p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .apresentation-btn{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .apresentation .apresentation-btn .btn-ap{
+        margin: 0;
+    }
+    .softwares{
+        margin-bottom: 49px;
+    }
+    .softwares .list-softwares{
+        flex-wrap: wrap;
+    }
+    .softwares .list-softwares .item-software{
+        min-width: 100px;
+        flex: 1 0 calc(33.33% - 10px);
+        margin: 5px;
+    }
+    .item-software .icon{
+        margin-top: 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .journey{
+        margin: 0 0 49px;
+        padding: 0;
+    }
+    .journey h2{
+        margin-bottom: 40px;
+    }
+    .journey .text-journey{
+        flex-direction: column;
+    }
+    .journey .text-journey .text-align h3, .journey .text-journey .text-align p{
+        margin-bottom: 20px;
+        margin-left: 100px;
+        text-align: start;
+    }
+    .journey .text-journey .text-align p{
+        padding-right: 8px;
+    }
+    .journey .text-journey .journey-image{
+        top: 0px;
+        left: 0;
+    }
+    .journey .text-journey .journey-right{
+        margin: 0;
+    }
+    .text-journey .journey-right .text-right{
+        margin-bottom: 0;
+    }
+    
+    .journey .text-journey .journey-left{
+        margin-top: 0;
+    }
+    
+    .text-journey .journey-left .text-left{
+        margin-bottom: 0;
+    }
+    .services .paragraph-services{
+        display: none;
+    }
+    .services .services-cards{
+        flex-direction: column;
+    }
+    .services .services-cards .card.reduced{
+        flex-direction: row;
+        height: 100px;
+    }
+    .services .services-cards .paragraph-card.hidden{
+        display: none;
+    }
+    .packages p{
+        display: none;
+    }
+    .packages .cards-price{
+        flex-direction: column;
+    }
+    .packages .cards-price .card-price{
+        margin-bottom: 50px;
+    }
+    .packages .cards-price .card-price .btn{
+        display: none;
+    }
+    .packages .cards-price .card-price:hover{
+        transform: none;
+    }
+    .packages .cards-price .card-price .card-price-list .item-list{
+        margin-bottom: 10px;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .photo-gabriel{
+        align-self: center;
+        width: 250px;
+        height: 250px;
+    }
+    .about .professional{
+        margin-left: 0;
+    }
+    .about .professional .about-me{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .professional .about-me p{
+        margin: 0 7px 0 7px;
+        text-align: center;
+    }
+    .about .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .social .all-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    .about .more-informations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .about .more-informations p{
+        padding: 0 7px 0 7px;
+        text-align: center;
+    }
+    .more-informations button{
+        margin: 0;
+    }
+    .more-informations .information-buttons button:first-child {
+        margin-right: 10px;
+    }
+    .footer{
+        padding-top: 10px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .projects i:first-child{
+        left: -16px;
+        display: none;
+    }
+    .projects i:last-child{
+        right: -16px;
+    }
+}
