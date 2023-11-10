@@ -17,28 +17,3 @@ arrowIcons.forEach(icon => {
         setInterval(() => showHideIcons(), 60);
     });
 });
-
-// const dragStart = (e) => {
-//     isDragStart = true;
-//     prevPageX = e.pageX;
-//     prevScrollLeft = slider.scrollLeft;
-// }
-
-// const dragging = (e) => {
-//     if(!isDragStart) return;
-//     e.preventDefault();
-//     let positionDiff = e.pageX - prevPageX;
-//     slider.scrollLeft = prevScrollLeft - positionDiff;
-//     slider.classList.add("dragging")
-//     showHideIcons()
-// }
-
-// const dragStop = () => {
-//     let isDragStart = false
-//     slider.classList.remove("dragging")
-// }
-
-// slider.addEventListener("mousedown", dragStart);
-// slider.addEventListener("mousemove", dragging);
-// slider.addEventListener("mouseup", dragStop);
-// slider.addEventListener("mouseleave", dragStop);
